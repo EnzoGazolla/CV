@@ -10,7 +10,6 @@ Brasília, DF — Brasil
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EnzoGazolla)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:enzogazolla.tech@gmail.com)
 [![Currículo em PDF](https://img.shields.io/badge/Currículo-PDF-0284c7?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Currículo%20-%20EnzoGazollaNagano.pdf)
-[![Cartão de Visita](https://img.shields.io/badge/Cartão_de_Visita-Feira_de_Estágio-0d9488?style=for-the-badge&logo=target&logoColor=white)](./cartao-de-visita.html)
 <br><br>
 
 <img src="./QRCODE.jpeg" width="160" alt="QR Code para acesso rápido" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.12);" />
