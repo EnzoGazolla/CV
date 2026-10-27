@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo | Enzo Gazolla Nagano</title>
+  <meta name="description" content="Currículo de Enzo Gazolla Nagano - Estudante de Ciência da Computação, Desenvolvimento de Software e Inteligência Artificial.">
+  
+  <!-- Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra de Ações Rápidas (Mobile / Desktop) -->
+  <nav class="action-bar no-print" aria-label="Ações rápidas">
+    <div class="action-bar-inner">
+      <span class="status-badge"><span class="dot"></span> Disponível para Estágio</span>
+      <div class="action-buttons">
+        <button id="theme-toggle" class="btn btn-icon" aria-label="Alternar Tema" title="Alternar tema claro/escuro">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button onclick="window.print()" class="btn btn-outline" title="Salvar como PDF / Imprimir">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          <span>PDF</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Container Principal do Currículo -->
+  <main class="resume-container">
+    
+    <!-- Cabeçalho / Informações Pessoais -->
+    <header class="header">
+      <div class="header-main">
+        <h1 class="name">Enzo Gazolla Nagano</h1>
+        <p class="role-badge">Estudante de Ciência da Computação | Dev Software &amp; IA</p>
+      </div>
+
+      <!-- Links de Contato Rápidos -->
+      <ul class="contact-list" aria-label="Contatos e Links">
+        <li class="contact-item">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Brasília, DF</span>
+        </li>
+        <li class="contact-item">
+          <a href="tel:+5561992717676" title="Ligar para Enzo">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+55 (61) 99271-7676</span>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="mailto:enzogazolla.tech@gmail.com" title="Enviar e-mail">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>enzogazolla.tech@gmail.com</span>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="https://www.linkedin.com/in/enzogazolla" target="_blank" rel="noopener noreferrer" title="LinkedIn de Enzo Gazolla">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            <span>linkedin.com/in/enzogazolla</span>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="https://github.com/EnzoGazolla" target="_blank" rel="noopener noreferrer" title="GitHub de Enzo Gazolla">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+            <span>github.com/EnzoGazolla</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Resumo Profissional -->
+    <section class="section" aria-labelledby="sec-resumo">
+      <h2 id="sec-resumo" class="section-title">
+        <span class="title-bar"></span> Sobre Mim
+      </h2>
+      <p class="summary-text">
+        Estudante de <strong>Ciência da Computação</strong> em busca de estágio com foco em <strong>Desenvolvimento de Software e Inteligência Artificial</strong>. Apaixonado por tecnologia e motivado a crescer. Focado em criar soluções eficientes e evoluir no desenvolvimento de modelos, colaborando ativamente na resolução de problemas complexos e na implementação de inovações tecnológicas.
+      </p>
+    </section>
+
+    <!-- Competências / Skills -->
+    <section class="section" aria-labelledby="sec-skills">
+      <h2 id="sec-skills" class="section-title">
+        <span class="title-bar"></span> Competências
+      </h2>
+      
+      <div class="skills-grid">
+        <div class="skill-group">
+          <span class="skill-category">Front-End</span>
+          <div class="chips">
+            <span class="chip">HTML/CSS</span>
+            <span class="chip">React</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-category">Back-End</span>
+          <div class="chips">
+            <span class="chip chip-highlight">Go</span>
+            <span class="chip chip-highlight">Python</span>
+            <span class="chip chip-highlight">Java</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-category">Inteligência Artificial</span>
+          <div class="chips">
+            <span class="chip chip-ai">LLMs</span>
+            <span class="chip chip-ai">Agents of AI</span>
+            <span class="chip chip-ai">Fine-Tuning</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-category">Ferramentas &amp; Outros</span>
+          <div class="chips">
+            <span class="chip">Git</span>
+            <span class="chip">Figma</span>
+            <span class="chip">Pacote Office</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-category">Idiomas</span>
+          <div class="chips">
+            <span class="chip">Inglês — Avançado</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-category">Soft Skills</span>
+          <div class="chips">
+            <span class="chip">Aprendizado Rápido</span>
+            <span class="chip">Gestão de Tempo</span>
+            <span class="chip">Adaptabilidade</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="section" aria-labelledby="sec-projetos">
+      <h2 id="sec-projetos" class="section-title">
+        <span class="title-bar"></span> Projetos &amp; Iniciação Científica
+      </h2>
+
+      <div class="projects-list">
+        
+        <!-- Projeto Destaque: Iniciação Científica -->
+        <article class="project-card highlight-card">
+          <div class="project-header">
+            <div>
+              <span class="project-tag">Pesquisa Acadêmica</span>
+              <h3 class="project-title">Programa de Iniciação Científica 2026/2027 — PIC_PIBITI_35</h3>
+            </div>
+          </div>
+          <p class="project-desc">
+            Análise de padrões linguísticos e comportamentais de sinais de depressão em redes sociais: uma investigação com fine-tuning do <strong>BERTimbau</strong> no corpus <em>SetembroBR</em>.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">NLP</span>
+            <span class="mini-tag">BERTimbau</span>
+            <span class="mini-tag">Fine-Tuning</span>
+            <span class="mini-tag">Python</span>
+          </div>
+        </article>
+
+        <!-- ChatFoto Bot -->
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">ChatFoto Bot — Telegram com Gemini API</h3>
+            </div>
+            <a href="https://github.com/EnzoGazolla/ChatFoto" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver ChatFoto no GitHub">
+              <span>GitHub</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">
+            Chatbot no Telegram em Java que responde aos usuários de forma bem-humorada, integrando a <strong>API do Gemini</strong> e executado com <strong>JBang</strong>.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">Java</span>
+            <span class="mini-tag">Gemini API</span>
+            <span class="mini-tag">JBang</span>
+            <span class="mini-tag">Telegram Bot</span>
+          </div>
+        </article>
+
+        <!-- IBM BOB -->
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">IBM BOB — Porteiro Eletrônico com Reconhecimento Facial</h3>
+            </div>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7481049067029118977/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver demonstração no LinkedIn">
+              <span>LinkedIn</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">
+            Sistema de controle de acesso com reconhecimento facial em tempo real. Integra JavaFX, OpenCV e Deep Java Library (DJL). Prototipado e executado de forma ágil com auxílio do IBM BOB e JBang.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">JavaFX</span>
+            <span class="mini-tag">OpenCV</span>
+            <span class="mini-tag">DJL</span>
+            <span class="mini-tag">Computer Vision</span>
+          </div>
+        </article>
+
+        <!-- Minimax Pac-Man -->
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">Algoritmo Minimax para Pac-Man</h3>
+            </div>
+            <a href="https://github.com/EnzoGazolla/PacMan" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver Pac-Man no GitHub">
+              <span>GitHub</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">
+            Implementação do algoritmo Minimax clássico de IA para jogos, prevendo jogadas futuras e alternando entre maximização e minimização para definir o melhor movimento.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">IA Clássica</span>
+            <span class="mini-tag">Minimax</span>
+            <span class="mini-tag">Algoritmos</span>
+          </div>
+        </article>
+
+        <!-- IA Discriminativa -->
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">IA Discriminativa — Machine Learning</h3>
+            </div>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7485376964418129920/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver IA Discriminativa no LinkedIn">
+              <span>LinkedIn</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">
+            Reconhecimento de imagens utilizando a plataforma Teachable Machine (Google) para treinamento, teste e validação de modelos de visão computacional.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">Machine Learning</span>
+            <span class="mini-tag">Teachable Machine</span>
+            <span class="mini-tag">Visão Computacional</span>
+          </div>
+        </article>
+
+        <!-- ViajaTour -->
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">ViajaTour — Sistema de Pacotes Turísticos</h3>
+            </div>
+            <a href="https://github.com/EnzoGazolla/viajaTour" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver ViajaTour no GitHub">
+              <span>GitHub</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">
+            Plataforma web de turismo desenvolvida com foco na apresentação, organização e reserva de pacotes de viagem.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">Web Development</span>
+            <span class="mini-tag">Frontend</span>
+          </div>
+        </article>
+
+        <!-- LookEasy -->
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">LookEasy — E-commerce de Vestuário</h3>
+            </div>
+            <a href="https://github.com/EnzoGazolla/ProjetoLookEasy" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver LookEasy no GitHub">
+              <span>GitHub</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">
+            Aplicação web simulando um fluxo completo de e-commerce de roupas e acessórios, incluindo páginas de catálogo e autenticação/login.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">E-Commerce</span>
+            <span class="mini-tag">Auth UI</span>
+            <span class="mini-tag">Frontend</span>
+          </div>
+        </article>
+
+        <!-- SoftBike -->
+        <article class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">SoftBike — Loja &amp; Catálogo de Bicicletas</h3>
+            </div>
+            <a href="https://github.com/EnzoGazolla/SoftBike" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver SoftBike no GitHub">
+              <span>GitHub</span>
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <p class="project-desc">
+            Website institucional e comercial completo para loja de bicicletas, com catálogo de produtos e agendamento de serviços.
+          </p>
+          <div class="project-techs">
+            <span class="mini-tag">UI/UX</span>
+            <span class="mini-tag">HTML/CSS</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Educação e Formação -->
+    <section class="section" aria-labelledby="sec-educacao">
+      <h2 id="sec-educacao" class="section-title">
+        <span class="title-bar"></span> Formação Acadêmica
+      </h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Bacharelado em Ciência da Computação</h3>
+              <p class="timeline-place">UniCEUB — Centro Universitário de Brasília</p>
+            </div>
+            <span class="timeline-period">Jan/2024 — Dez/2027</span>
+          </div>
+          <div class="timeline-content">
+            <p><strong>Representante de Turma (Ago — Dez 2026):</strong> Responsável pela comunicação entre discentes, corpo docente e coordenação, alinhamento de demandas acadêmicas e mediação de soluções.</p>
+            <p class="meta-info"><strong>Média Geral:</strong> 8,0 / 10,0</p>
+            <div class="extra-courses">
+              <span class="extra-label">Cursos extras na instituição:</span>
+              <span class="mini-tag">Oficina da Linguagem GO</span>
+              <span class="mini-tag">Oficina da Linguagem JAVA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Ensino Médio</h3>
+              <p class="timeline-place">Centro Educacional Leonardo da Vinci</p>
+            </div>
+            <span class="timeline-period">2021 — 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Especialização & Certificações em IA -->
+    <section class="section" aria-labelledby="sec-certificacoes">
+      <h2 id="sec-certificacoes" class="section-title">
+        <span class="title-bar"></span> Especialização em IA / Generative AI
+      </h2>
+      <p class="section-subtitle">
+        Certificações obtidas em IA Generativa e Agentes de IA por <strong>Google Cloud</strong>, <strong>Coursera</strong> e <strong>IBM SkillsBuild</strong>:
+      </p>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <span class="cert-badge google">Google Cloud</span>
+          <ul class="cert-list">
+            <li>Build Your First Agent with Agent Development Kit (ADK)</li>
+            <li>Agent Fundamentals</li>
+            <li>Transformer Models and BERT Model</li>
+            <li>Attention Mechanism</li>
+            <li>Encoder-Decoder Architecture</li>
+            <li>Introduction to Large Language Models (LLMs)</li>
+            <li>Introduction to Generative AI</li>
+            <li>Introduction to Responsible AI</li>
+            <li>Introduction to Image Generation</li>
+            <li>Create Image Captioning Models</li>
+          </ul>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-badge coursera">Coursera</span>
+          <ul class="cert-list">
+            <li>Google AI Essentials</li>
+          </ul>
+          
+          <span class="cert-badge ibm" style="margin-top: 1rem;">IBM SkillsBuild</span>
+          <ul class="cert-list">
+            <li>Gerenciamento de riscos e detecção de fraudes usando IA generativa</li>
+            <li>Dominando a arte de criar prompts: instruções eficazes para LLMs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé Discreto -->
+    <footer class="footer no-print">
+      <p>Desenvolvido com HTML5 &amp; CSS3 puro • Otimizado para Mobile &amp; Impressão PDF</p>
+    </footer>
+
+  </main>
+
+  <!-- Script para alternância de tema Claro/Escuro -->
+  <script>
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    
+    // Verificar preferência salva no LocalStorage ou sistema
+    const currentTheme = localStorage.getItem('theme') || (prefersDarkScheme.matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    themeToggleBtn.addEventListener('click', () => {
+      let theme = document.documentElement.getAttribute('data-theme');
+      let newTheme = theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>
