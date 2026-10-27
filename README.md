@@ -1,101 +1,147 @@
-# 📄 Currículo Web Interativo & Compacto — Enzo Gazolla Nagano
+<div align="center">
 
-Currículo web moderno, responsivo e ultra-compacto para mobile, desenvolvido em **HTML5**, **CSS3 puro** e **JavaScript nativo** (zero dependências pesadas). Criado sob medida para destacar competências em **Desenvolvimento de Software**, **Inteligência Artificial (LLMs & Agentes)** e **Projetos Acadêmicos/Práticos**.
+# Enzo Gazolla Nagano
 
----
+### 🚀 Estudante de Ciência da Computação | Software Developer & AI Enthusiast
 
-## ✨ Destaques & Funcionalidades
+Brasília, DF — Brasil  
 
-- 📱 **Mobile-First & Ultra Compacto**:
-  - Ajustado milimetricamente para telas de smartphones, evitando scroll excessivo e aproveitando cada espaço com tipografia proporcional (`clamp` e `rem`).
-  - Cards e chips de competências organizados e legíveis com facilidade de toque.
-- 🌓 **Tema Claro & Escuro (Dark/Light Mode)**:
-  - Alternador dinâmico de tema com persistência automática no `localStorage` do navegador.
-  - Paleta escura inspirada em temas para desenvolvedores (*Slate/Navy & Cyan Accents*).
-- 🖨️ **Otimizado para PDF & Impressão (`@media print`)**:
-  - Botão integrado de impressão/PDF.
-  - Oculta botões de navegação, ajusta margens para **padrão A4** e evita quebras de página desagradáveis no meio dos cards (`break-inside: avoid`).
-- ⚡ **Alta Performance & Acessibilidade**:
-  - Sem frameworks pesados; carrega instantaneamente.
-  - Links diretos com ícones SVG inline para **WhatsApp/Telefone**, **E-mail**, **LinkedIn** e **GitHub**.
-  - Tags semânticas do HTML5 (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`).
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enzogazolla)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EnzoGazolla)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:enzogazolla.tech@gmail.com)
+[![Currículo em PDF](https://img.shields.io/badge/Currículo-PDF-0284c7?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Currículo%20-%20EnzoGazollaNagano.pdf)
+
+<p align="center">
+  <strong>Em busca de oportunidade de Estágio em Desenvolvimento de Software e Inteligência Artificial.</strong>
+</p>
+
+</div>
 
 ---
 
-## 📁 Estrutura de Arquivos
+## 📌 Sobre Mim
 
-```plaintext
-Currículo/
-├── index.html        # Estrutura semântica e dados do currículo
-├── style.css         # Design system com variáveis CSS, responsividade e regras de impressão
-└── README.md         # Documentação e instruções de uso
-```
+Estudante de **Ciência da Computação** no **UniCEUB** (conclusão em Dez/2027), apaixonado por tecnologia, desenvolvimento de software e Inteligência Artificial. Focado em arquitetar soluções eficientes, evoluir no desenvolvimento e fine-tuning de modelos generativos/discriminativos e atuar na resolução de problemas complexos por meio de código limpo e inovação tecnológica.
 
----
-
-## 🚀 Como Visualizar Localmente
-
-### Método 1: Direto no Navegador (Mais Rápido)
-1. Dê um duplo clique no arquivo `index.html`.
-2. O currículo abrirá no seu navegador padrão (Chrome, Edge, Firefox, Brave, etc.).
-
-### Método 2: Com VS Code / Antigravity IDE (Live Server)
-1. Com o projeto aberto na IDE, instale a extensão **Live Server** (caso não tenha).
-2. Clique com o botão direito no `index.html` e selecione **"Open with Live Server"**.
-3. O projeto recarregará automaticamente sempre que você fizer alterações no código.
+- 🎓 **Graduação:** Ciência da Computação — UniCEUB (Média Geral: 8.0/10)
+- 🗣️ **Idiomas:** Inglês (Avançado) | Português (Nativo)
+- 🤝 **Liderança:** Representante de Turma (Ago/2026 — Dez/2026)
+- 📍 **Localização:** Brasília, DF
+- 📞 **Contato:** +55 (61) 99271-7676 | `enzogazolla.tech@gmail.com`
 
 ---
 
-## 🖨️ Como Exportar em PDF com Qualidade Máxima
+## 🛠️ Competências & Tecnologias
 
-1. Abra o arquivo no navegador (Google Chrome ou Microsoft Edge recomendados).
-2. Clique no botão **"PDF"** no topo da página ou pressione `Ctrl + P` (no Windows).
-3. Na janela de impressão:
-   - **Destino**: Escolha **"Salvar como PDF"**.
-   - **Páginas**: "Tudo" (ou selecione as páginas que desejar).
-   - **Layout**: "Retrato".
-   - Em **Mais definições**:
-     - **Tamanho do papel**: A4.
-     - **Margens**: "Padrão" ou "Mínimas".
-     - **Gráficos de segundo plano**: Marque esta opção caso queira manter os fundos dos chips e cores de destaque.
-4. Clique em **Salvar**.
+<div align="center">
 
----
+| Área | Tecnologias & Habilidades |
+| :--- | :--- |
+| **Linguagens Back-End** | `Go (Golang)`, `Python`, `Java` |
+| **Front-End & Web** | `HTML5`, `CSS3`, `JavaScript (ES6+)`, `React` |
+| **Inteligência Artificial** | `LLMs`, `AI Agents`, `Fine-Tuning (BERTimbau)`, `Prompt Engineering` |
+| **Visão Computacional & ML** | `OpenCV`, `JavaFX`, `Deep Java Library (DJL)`, `Teachable Machine` |
+| **Ferramentas & DevOps** | `Git`, `GitHub`, `JBang`, `Figma`, `Pacote Office` |
+| **Soft Skills** | Aprendizado Rápido, Resolução de Problemas, Gestão de Tempo, Adaptabilidade |
 
-## 🌐 Como Publicar Online Gratuitamente
-
-Você pode colocar seu currículo no ar em minutos com um link próprio para enviar aos recrutadores:
-
-### Opção 1: GitHub Pages (Recomendado)
-1. Crie um repositório no seu GitHub (ex.: `curriculo` ou `EnzoGazolla.github.io`).
-2. Faça o commit e envie os arquivos (`index.html`, `style.css`, `README.md`):
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: curriculo web compacto e responsivo"
-   git branch -M main
-   git remote add origin https://github.com/EnzoGazolla/SEU-REPOSITORIO.git
-   git push -u origin main
-   ```
-3. No GitHub, acesse: **Settings** > **Pages** > em *Branch*, selecione `main` e a pasta `/ (root)`.
-4. Salve. Seu currículo estará online em `https://enzogazolla.github.io/SEU-REPOSITORIO`.
-
-### Opção 2: Vercel ou Netlify (Arrastar e Soltar)
-1. Acesse [vercel.com](https://vercel.com) ou [netlify.com](https://netlify.com).
-2. Conecte sua conta do GitHub ou simplesmente arraste a pasta do currículo para a interface.
-3. Você receberá um domínio gratuito instantaneamente com suporte a HTTPS (ex.: `curriculo-enzo.vercel.app`).
+</div>
 
 ---
 
-## ✏️ Como Personalizar
+## 🔬 Iniciação Científica & Projetos em Destaque
 
-- **Adicionar Novos Projetos**:
-  No arquivo `index.html`, copie qualquer bloco `<article class="project-card">...</article>` dentro da seção de projetos e atualize título, descrição, link e tecnologias (`mini-tag`).
-- **Atualizar Contatos e Links**:
-  Edite a lista `<ul class="contact-list">` no `<header>` de `index.html`.
-- **Customizar Cores**:
-  No arquivo `style.css`, altere as variáveis `:root` (tema claro) ou `[data-theme="dark"]` (tema escuro), como `--primary` e `--accent`.
+### 🧠 [Pesquisa Acadêmica] PIC / PIBITI 2026/2027 — PIC_PIBITI_35
+* **Tema:** *Análise de padrões linguísticos e comportamentais de sinais de depressão em redes sociais: uma investigação com fine-tuning do BERTimbau no corpus SetembroBR.*
+* **Foco:** Processamento de Linguagem Natural (NLP), Fine-Tuning do modelo BERTimbau (BERT em português) e análise comportamental em dados textuais de mídias sociais.
+* **Techs:** `Python` • `NLP` • `BERTimbau` • `Hugging Face` • `Data Science`
 
 ---
 
-Desenvolvido para **Enzo Gazolla Nagano** • Estudante de Ciência da Computação | Dev Software & IA
+### 🤖 [ChatFoto Bot — Telegram com Gemini API](https://github.com/EnzoGazolla/ChatFoto)
+* Chatbot para o Telegram desenvolvido em Java que interage de forma bem-humorada com os usuários através da **API do Google Gemini**, executado de maneira ágil com **JBang**.
+* **Techs:** `Java` • `Google Gemini API` • `Telegram Bot API` • `JBang`
+
+---
+
+### 👁️ [IBM BOB — Porteiro Inteligente com Reconhecimento Facial](https://www.linkedin.com/feed/update/urn:li:activity:7481049067029118977/)
+* Sistema de controle de acesso automatizado com reconhecimento facial em tempo real. Integra interface em JavaFX com processamento de visão computacional via OpenCV e DJL (Deep Java Library), desenvolvido e prototipado com auxílio do assistente IBM BOB.
+* **Techs:** `JavaFX` • `OpenCV` • `DJL` • `Computer Vision` • `JBang`
+
+---
+
+### 🕹️ [Implementação do Algoritmo Minimax para Pac-Man](https://github.com/EnzoGazolla/PacMan)
+* Implementação do algoritmo clássico de IA para jogos com árvore de decisão Minimax, avaliando estados e alternando turnos entre maximização de pontuação e minimização de riscos contra os fantasmas.
+* **Techs:** `Inteligência Artificial Clássica` • `Minimax` • `Algoritmos e Estruturas de Dados`
+
+---
+
+### 📊 [IA Discriminativa — Treinamento & Validação de Modelos](https://www.linkedin.com/feed/update/urn:li:activity:7485376964418129920/)
+* Treinamento, teste e validação de modelos de aprendizado de máquina para classificação e reconhecimento de padrões visuais utilizando a plataforma Teachable Machine do Google.
+* **Techs:** `Machine Learning` • `Teachable Machine` • `Visão Computacional`
+
+---
+
+### 🌐 Outros Projetos Web:
+* ✈️ **[ViajaTour](https://github.com/EnzoGazolla/viajaTour):** Plataforma web para apresentação, consulta e organização de pacotes de viagens.
+* 🛍️ **[LookEasy](https://github.com/EnzoGazolla/ProjetoLookEasy):** E-commerce de vestuário com fluxo de produtos, carrinho e telas de autenticação.
+* 🚲 **[SoftBike](https://github.com/EnzoGazolla/SoftBike):** Website institucional com catálogo completo de bicicletas e agendamento de serviços.
+
+---
+
+## 📜 Formação Acadêmica
+
+* **Bacharelado em Ciência da Computação** — *UniCEUB (Centro Universitário de Brasília)*  
+  *Período:* Jan/2024 — Dez/2027 (Previsão de formatura)  
+  *Média Geral:* **8.0 / 10.0**  
+  *Atividades de Destaque:*  
+  - **Representante de Turma** (Ago/2026 — Dez/2026): Intermediação ativa entre discentes, coordenação e corpo docente, mediação de demandas acadêmicas e alinhamento de soluções.  
+  - *Oficinas Extracurriculares:* Oficina da Linguagem GO e Oficina da Linguagem JAVA.
+
+* **Ensino Médio** — *Centro Educacional Leonardo da Vinci* (2021 — 2023)
+
+---
+
+## 🏆 Certificações em IA (Generative AI & Agentes)
+
+Certificações emitidas por **Google Cloud**, **Coursera** e **IBM SkillsBuild**:
+
+* 🌐 **Google Cloud:**
+  * *Build Your First Agent with Agent Development Kit (ADK)*
+  * *Agent Fundamentals*
+  * *Transformer Models and BERT Model*
+  * *Attention Mechanism*
+  * *Encoder-Decoder Architecture*
+  * *Introduction to Large Language Models (LLMs)*
+  * *Introduction to Generative AI*
+  * *Introduction to Responsible AI*
+  * *Introduction to Image Generation*
+  * *Create Image Captioning Models*
+* 🎓 **Coursera:**
+  * *Google AI Essentials*
+* 🔵 **IBM SkillsBuild:**
+  * *Gerenciamento de riscos e detecção de fraudes usando IA generativa*
+  * *Dominando a arte de criar prompts: instruções eficazes para modelos de linguagem de IA*
+
+---
+
+## 📂 Sobre este Repositório
+
+Este repositório armazena tanto o currículo oficial em PDF quanto a versão **Web Interativa**:
+
+| Arquivo | Descrição |
+| :--- | :--- |
+| 📄 [`Currículo - EnzoGazollaNagano.pdf`](./Currículo%20-%20EnzoGazollaNagano.pdf) | Versão oficial formatada em PDF pronta para download e impressão |
+| 🌐 [`index.html`](./index.html) | Versão web responsiva, otimizada para mobile e com suporte a tema claro/escuro |
+| 🎨 [`style.css`](./style.css) | Folha de estilos sem frameworks, variáveis CSS e suporte a impressão A4 |
+| 📘 [`README.md`](./README.md) | Apresentação oficial do perfil, projetos e competências no GitHub |
+
+### Como Visualizar a Versão Web:
+1. Clone ou baixe este repositório.
+2. Dê um duplo clique no arquivo [`index.html`](./index.html) para abrir diretamente em qualquer navegador.
+3. Para publicar online no **GitHub Pages**, basta ir em **Settings > Pages** do seu repositório e selecionar a branch `main`.
+
+---
+
+<div align="center">
+  <sub>Desenvolvido com carinho por Enzo Gazolla Nagano • Brasília, DF</sub>
+</div>
